@@ -16,13 +16,13 @@ public class Customer implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	//data members
+	
 	@Id
 	private int cust_ID;
 	private String Name;
 	private double product_price;
 	
-	//setters and getters method
+	
 
 	public int getCust_ID() {
 		return cust_ID;
