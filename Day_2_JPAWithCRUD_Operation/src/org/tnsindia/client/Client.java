@@ -13,18 +13,18 @@ public class Client {
 		Scanner s=new Scanner(System.in);
 		
 		//create operation
-    	customer.setCust_ID(1023);
- 		customer.setName("Prajakta");
+    	customer.setCust_ID(1028);
+ 		customer.setName("SHITAL");
 		customer.setProduct_price(920.20);
 		service.addCustomer(customer);
 		System.out.println("Customer added Successfully");
 		
 		
-		/*customer=service.getCustomerById(1023);
+		customer=service.getCustomerById(1023);
 		System.out.println("Customer ID: "+customer.getCust_ID());
 		System.out.println("Customer Name: "+customer.getName());
 		System.out.println("Customer Product-price: "+customer.getProduct_price());
-		*/
+		
 	/*	System.out.println("Enter the CustID for the updation");
 		customer=service.getCustomerById(s.nextInt());
 		customer.setName("Prajakta karve");
